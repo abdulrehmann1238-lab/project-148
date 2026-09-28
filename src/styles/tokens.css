@@ -1,0 +1,87 @@
+:root {
+  /* color */
+  --bg: #F6F3EC;
+  --surface: #FBF9F5;
+  --elevated: #FFFFFF;
+  --ink: #16242B;
+  --ink-2: #4A5A61;
+  --ink-3: #6F7D83;
+  --line: #E3DED3;
+  --line-2: #CFC8B9;
+  --primary: #1F4A4F;
+  --primary-h: #173B3F;
+  --primary-a: #112E31;
+  --primary-t: #E4ECEA;
+  --sage: #8FA89B;
+  --sage-t: #E6EDE8;
+  --brass: #A8834A;
+  --brass-ink: #7D5F2E;
+  --brass-t: #F1E8D7;
+  --success: #2F6B4F;
+  --success-t: #E3F0E8;
+  --warning: #A86A1B;
+  --warning-t: #F6EBD6;
+  --error: #A23B33;
+  --error-t: #F6E2DF;
+  --info: #345C7A;
+  --info-t: #E1EBF2;
+  --ink-bg: #12252A;
+
+  /* admin (WordPress-native) */
+  --wp-menu: #1D2327;
+  --wp-bg: #F0F0F1;
+  --wp-blue: #2271B1;
+  --wp-blue-hover: #135E96;
+  --wp-border: #C3C4C7;
+
+  /* type */
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Hanken Grotesk', system-ui, sans-serif;
+
+  /* spacing */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-16: 64px;
+  --s-20: 80px;
+  --s-24: 96px;
+  --s-32: 128px;
+
+  /* radius */
+  --r-xs: 3px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-pill: 999px;
+
+  /* shadow */
+  --sh-1: 0 1px 2px rgba(22, 36, 43, 0.06);
+  --sh-2: 0 4px 14px rgba(22, 36, 43, 0.08);
+  --sh-3: 0 16px 40px rgba(22, 36, 43, 0.14);
+
+  /* motion */
+  --t-fast: 140ms;
+  --t-med: 260ms;
+  --t-slow: 520ms;
+  --t-page: 320ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+
+  /* z-index */
+  --z-base: 0;
+  --z-nav: 30;
+  --z-search: 40;
+  --z-dropdown: 50;
+  --z-drawer: 60;
+  --z-modal: 70;
+  --z-toast: 80;
+  --z-demo: 90;
+  --z-loader: 100;
+}
